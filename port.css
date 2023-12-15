@@ -1,0 +1,161 @@
+@media (max-width: 600px) {
+   
+    body{     
+        background-color: rgb(151, 195, 221);    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;
+    }
+
+    .content{
+        height: fit-content;
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+        width: 80%;
+    }
+
+    .text{
+        display: flex;
+        align-items: center;
+        gap:20px;
+        margin-bottom: 20px;
+        font-size: 17px;
+        font-family: roboto;
+    }
+
+    #quotes{
+        background-color: rgb(40, 88, 117);
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+        width: 350px;
+    }
+
+    #copy{
+        height: 50px;
+        width:  50px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0px 3px 2px 2px lightblue;
+    }
+
+    #copy:active{
+        box-shadow: 0px 0px 0px 0px;
+        transform: translateY(3px);
+    }
+
+    .copy{
+        height: 40px;
+    }
+
+    .gene{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+    }
+
+    #gen{
+        border: none;
+        border-radius: 10px;
+        width: 50%;
+        background-color: white;
+        box-shadow: 0px 3px 1px 2px lightblue;
+        padding: 10px;
+        font-size: 17px;
+        font-family: roboto;
+    }
+
+    #gen:active{
+        box-shadow: 0px 0px 0px 0px ;
+        transform: translateY(3px);
+    }
+
+
+}
+
+@media (min-width: 601px) {
+    
+    body{
+        background-color: rgb(151, 195, 221);    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;
+    }
+
+    .content{
+        height: fit-content;
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:20px;
+        margin-bottom: 20px;
+        font-size: 17px;
+        font-family: agbalumo;
+    }
+
+    #quotes{
+        background-color: rgb(40, 88, 117);
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+        width: 350px;
+    }
+
+    #copy{
+        height: 50px;
+        width:  50px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0px 3px 2px 2px lightblue;
+    }
+
+    #copy:active{
+        box-shadow: 0px 0px 0px 0px;
+        transform: translateY(3px);
+    }
+
+    .copy{
+        height: 40px;
+    }
+
+    .gene{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #gen{
+        border: none;
+        border-radius: 10px;
+        width: 50%;
+        background-color: white;
+        box-shadow: 0px 3px 1px 2px lightblue;
+        padding: 10px;
+        font-size: 17px;
+        font-family: roboto;
+    }
+
+    #gen:active{
+        box-shadow: 0px 0px 0px 0px ;
+        transform: translateY(3px);
+    }
+
+}
